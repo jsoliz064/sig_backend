@@ -1,0 +1,70 @@
+
+.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap
+}
+
+.dataTables_length select {
+    width: auto;
+    display: inline-block
+}
+
+.dataTables_filter {
+    text-align: right
+}
+
+.dataTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left
+}
+
+.dataTables_filter input {
+    margin-left: .5em;
+    display: inline-block;
+    width: auto
+}
+
+.dataTables_info {
+    padding-top: .85em
+}
+.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right
+}
+
+.dataTables_paginate ul.pagination {
+    margin: 2px 0;
+    white-space: nowrap;
+    justify-content: flex-end
+}
+
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: -26px;
+    text-align: center;
+    padding: 1em 0
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .dataTables_length,
+    .dataTables_filter,
+    .dataTables_info,
+    .dataTables_paginate {
+        text-align: center
+    }
+
+    .dataTables_paginate ul.pagination {
+        justify-content: center !important
+    }
+}
+
+

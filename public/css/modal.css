@@ -1,0 +1,14 @@
+.modald-contenido{
+  padding: 10px 20px;
+  margin: 10% auto;
+  position: relative;
+  }
+  .modald{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    overflow: scroll;
+  }

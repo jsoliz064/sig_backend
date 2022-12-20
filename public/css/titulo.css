@@ -1,0 +1,121 @@
+.centro-total{
+    position: absolute;
+    margin:auto;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.342);
+}
+.titulo {
+    cursor: pointer;
+    font: normal 25px/1 Arial Black, Gadget, sans-serif;
+    color: rgba(252,252,252,1);
+    text-shadow: 6px 2px 4px rgba(0,0,0,1) , 10px 4px 30px rgba(0,0,0,0.9) ;
+    position: absolute;
+}
+.pieza{
+    width:30px;
+    height:30px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    animation: changecolor 20s infinite;
+}
+
+@keyframes changecolor {
+    0% {
+        background-color: rgb(22, 21, 22);
+    }
+    15% {
+        background-color: rgb(25, 6, 77);
+    }
+    30% {
+        background-color: rgb(75, 15, 117);
+    }
+    45% {
+        background-color: rgb(122, 25, 146);
+    }
+    60% {
+        background-color: rgb(75, 15, 117);
+    }
+    80% {
+        background-color: rgb(52, 12, 97);
+    }
+    100% {
+        background-color: rgb(22, 21, 22);
+    }
+}
+
+.center-div{
+    position: absolute;
+    margin:auto;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 200px;
+    width: 200px;
+    border: 8px solid;
+    border-radius: 8px;
+}
+
+.centrar-horizontal{
+    width : 100%;
+    text-align : center;
+}
+.centrar-vertical{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 350px){
+    .center-div{
+        height: 300px;
+        width: 300px;
+    }
+    .titulo{
+        font: normal 40px/1 Arial Black, Gadget, sans-serif;
+    }
+    .pieza{
+        width:60px;
+        height: 60px;;
+    }
+  }
+
+@media screen and (min-width: 450px){
+    .center-div{
+        height: 400px;
+        width: 400px;
+    }
+    .titulo{
+        font: normal 50px/1 Arial Black, Gadget, sans-serif;
+    }
+    .pieza{
+        width:70px;
+        height: 70px;;
+    }
+  }
+
+  @media screen and (min-width: 650px){
+    .center-div{
+        height: 500px;
+        width: 500px;
+    }
+    .titulo{
+        font: normal 70px/1 Arial Black, Gadget, sans-serif;
+    }
+    .pieza{
+        width:90px;
+        height: 90px;;
+    }
+  }
+
+
+  
+ 
